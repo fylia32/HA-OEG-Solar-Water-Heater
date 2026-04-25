@@ -14,7 +14,7 @@ module: oeg <br>
 class: OEG <br> 
 6) Paste the following into AppDaemon:  
 system_packages: []  
-python_packages:
+python_packages:  
 \- minimalmodbus  
 \- pyserial<br>  
 init_commands: []  
