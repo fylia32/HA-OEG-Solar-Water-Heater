@@ -4,23 +4,23 @@ Unofficial integration to connect an **OEG-KSW-E** solar water heater controller
 
 Manual installation:
 
-- Install AppDaemon. https://github.com/Poeschl/Hassio-Addons.
-- Connect the OEG-KSW-E controller to the Raspberry Pi's USB port.
-- Modify the USB serial port in "oeg.py" if it is different.
-- Go to /addon_configs/a0d7b954_appdaemon/apps and create the "oeg" folder. Copy oeg.py into the "oeg" folder.
-- Add the following to /addon_configs/a0d7b954_appdaemon/apps/apps.yaml:
-oeg:
-module: oeg
-class: OEG
-- Paste the following into AppDaemon:
-system_packages: []
-python_packages:
-- minimalmodbus
-- pyserial
-init_commands: []
-log_level: info
-- Restart AppDaemon
-- Go to Developer Tools and search for oeg to view the sensors.
+1) Install AppDaemon. https://github.com/Poeschl/Hassio-Addons.
+2) Connect the OEG-KSW-E controller to the Raspberry Pi's USB port.
+3) Modify the USB serial port in "oeg.py" if it is different.
+4) Go to /addon_configs/a0d7b954_appdaemon/apps and create the "oeg" folder. Copy oeg.py into the "oeg" folder.
+5) Add the following to /addon_configs/a0d7b954_appdaemon/apps/apps.yaml:
+-oeg:
+-module: oeg
+-class: OEG
+6) Paste the following into AppDaemon:
+-system_packages: []
+-python_packages:
+-- minimalmodbus
+-- pyserial
+-init_commands: []
+-log_level: info
+7) Restart AppDaemon
+8) Go to Developer Tools and search for oeg to view the sensors.
 
 
 
