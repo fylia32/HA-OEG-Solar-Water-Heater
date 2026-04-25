@@ -16,7 +16,7 @@ class: OEG <br>
 system_packages: []  
 python_packages:  
 \- minimalmodbus  
-\- pyserial<br>  
+\- pyserial    
 init_commands: []  
 log_level: info  
 7) Restart AppDaemon
