@@ -22,6 +22,9 @@ log_level: info
 7) Restart AppDaemon
 8) Go to Developer Tools and search for oeg to view the sensors.
 
+<img width="902" height="539" alt="Capture d’écran 2026-04-15 174515" src="https://github.com/user-attachments/assets/a43fdfc1-97ba-4d39-b6ac-338d421f5ddd" />
+
+
 
 
 
