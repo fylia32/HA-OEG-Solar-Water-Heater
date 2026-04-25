@@ -9,9 +9,9 @@ Manual installation:
 3) Modify the USB serial port in "oeg.py" if it is different.
 4) Go to /addon_configs/a0d7b954_appdaemon/apps and create the "oeg" folder. Copy oeg.py into the "oeg" folder.
 5) Add the following to /addon_configs/a0d7b954_appdaemon/apps/apps.yaml:<br>
-oeg:
-module: oeg
-class: OEG
+oeg:<br> 
+module: oeg <br> 
+class: OEG <br> 
 6) Paste the following into AppDaemon:<br>
 system_packages: []
 python_packages:
