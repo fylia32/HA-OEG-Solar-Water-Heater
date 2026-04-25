@@ -12,20 +12,13 @@ Manual installation:
 oeg:<br> 
 module: oeg <br> 
 class: OEG <br> 
-6) Paste the following into AppDaemon:
- 
-system_packages: []
-
-python_packages:
-
-- minimalmodbus
-- 
-- pyserial<br>
-
-init_commands: []
-
-log_level: info
-
+6) Paste the following into AppDaemon:  
+system_packages: []  
+python_packages:  
+- minimalmodbus  
+- pyserial<br>  
+init_commands: []  
+log_level: info  
 7) Restart AppDaemon
 8) Go to Developer Tools and search for oeg to view the sensors.
 
