@@ -1,4 +1,4 @@
-# OEG-Solar-Water-Heater-
+# OEG-Solar-Water-Heater
 
 Unofficial integration to connect an **OEG-KSW-E** solar water heater controller to Home Assistant using AppDaemon. The connection is made via USB. Inspired by the work of https://github.com/ced2git/oeg_kmsd and https://github.com/Yannicflight/oeg_kmsd
 
